@@ -4,6 +4,11 @@ A desktop app that looks up the current weather for a city. The interface is bui
 
 Enter a city name and click **Get Weather**. The app shows the temperature in °C, a short description, and a matching emoji. If the request fails, the error message replaces the temperature.
 
+## Screenshots
+
+<img src="screenshots/start.png" alt="Start screen" width="280">
+<img src="screenshots/vancouver.png" alt="Weather for Vancouver" width="280">
+
 ## Requirements
 
 - Python 3.10 or newer (`match` / `case`)
@@ -83,6 +88,7 @@ Emoji text uses Apple Color Emoji on macOS, Segoe UI Emoji on Windows, and Noto 
 main.py           interface and API calls
 requirements.txt  PySide6 and requests
 .env.example      sample environment variable
+screenshots/      app screenshots used in this README
 ```
 
 `.venv/`, `.idea/`, and `.env` are listed in `.gitignore`.
